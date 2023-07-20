@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    display: flex;
+    background-color: rgba(122, 122, 122, 0.7);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    
+}
+.header-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+}
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.bannar-containar{
+    height: 100vh;
+    background-color: rgb(96, 94, 94);
+    background-blend-mode: overlay;
+    background-image: url(./asset/image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+    align-items: center;
+
+
+}
+.bannar-info{
+    padding-top: 250px;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.discription{
+    color: rgb(255, 253, 253);
+    padding: 10px;
+    font-size: 15px;  
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+}
+.bg-primery{
+    background-color: red;
+    color: white;
+}
+.service-containar{
+    height: 100vh;
+    background-color: rgb(38, 38, 38);
+    background-blend-mode: overlay;
+    background-image: url(./asset/image/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 10px;
+}
+.box{
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.service-discription{
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
